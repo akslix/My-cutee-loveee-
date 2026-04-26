@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For Yevandiiii 🖤</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: #f5f5f5;
+      font-family: 'Georgia', serif;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .box {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 15px;
+      margin: 20px;
+      box-shadow: 0 0 15px rgba(255, 0, 80, 0.2);
+    }
+
+    input {
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      margin-top: 10px;
+    }
+
+    button {
+      background: #ff3366;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    h1 {
+      color: #ff4d88;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="login">
+  <h1>Enter Password 🖤</h1>
+  <input type="password" id="pass">
+  <br>
+  <button onclick="checkPass()">Enter</button>
+</div>
+
+<div id="content" class="hidden">
+
+  <h1>Hi Yevandiiii 🖤</h1>
+  <p>From your Nanaaa 💌</p>
+
+  <div class="box">
+    <h2>Our Story 🫠</h2>
+    <p>
+    Nenu first time ninnu 5th lo chusanu… appudu manam antha close kadhu.  
+    6th lo matladadam start chesam… slow ga something changed.  
+    7th lo we got really close… nuvvu na person aipoyav ani ardham ayindi.  
+    8th lo… we fell in love 🖤  
+
+    Naku inka gurthundi… dare lo nenu “Inthandham” ki dance vesina roju.  
+    Nuvvu adi chusi entha happy ayyavo… aa look nenu eppatiki marchiponu.  
+
+    Appati nunchi ippativarku…  
+    manam chala fight chesam, chala navvam, chala moments share chesam…  
+    kani okati matram maraledhu — na love for you 🫠  
+
+    Nuvvu na life lo ochina best thing.  
+    And I’d choose you… again and again… every single time. 🖤
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Reasons I Love You 💕</h2>
+    <p>
+    • Nuvvu na pakkana unte naku calm ga untundi 🫠 <br>
+    • Nuvvu care chese vidhanam 🖤 <br>
+    • Naku navvinche small small things 😭 <br>
+    • Nuvvu na kosam fight chesina roju… I’ll never forget 🫶🏻 <br>
+    • Nuvvu nannu ela chustavo… like I’m everything 💌 <br>
+    • And simply… because you are YOU ❤️
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Click This 🫣</h2>
+    <button onclick="loveMsg()">Click me</button>
+  </div>
+
+</div>
+
+<audio autoplay loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function checkPass() {
+  var password = document.getElementById("pass").value;
+  if(password === "27.09.2010") {
+    document.getElementById("login").style.display = "none";
+    document.getElementById("content").classList.remove("hidden");
+  } else {
+    alert("Wrong password 😒");
+  }
+}
+
+function loveMsg() {
+  alert("I love you sooo much Yevandiiii 🫠🖤");
+}
+</script>
+
+</body>
+  </html>
